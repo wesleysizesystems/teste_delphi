@@ -11,19 +11,13 @@ object Form1: TForm1
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
-  object Label1: TLabel
-    Left = 192
-    Top = 248
-    Width = 121
-    Height = 33
-    Caption = 'Label1'
-  end
-  object Button1: TButton
-    Left = 144
-    Top = 120
-    Width = 251
-    Height = 81
-    Caption = 'Button1'
+  object Memo1: TMemo
+    Left = 8
+    Top = 8
+    Width = 580
+    Height = 169
+    Lines.Strings = (
+      'TESTE DE COMMIT')
     TabOrder = 0
   end
 end
